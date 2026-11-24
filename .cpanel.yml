@@ -1,0 +1,4 @@
+deployment:
+    tasks:
+     - export DEPLOYPATH=/home/kohane/public_html/solski_oglasnik
+     - /bin/cp -R * $DEPLOYPATH
